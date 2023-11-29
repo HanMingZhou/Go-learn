@@ -4,9 +4,10 @@ use (
 	./module1
 	./module2
 	./excel
-	./FindPrime
+	
 	./VariableOuter
 	./Variable
 	./Struct
 	./StructMode
+	./PathTest
 )
