@@ -1,7 +1,6 @@
 package main
 
 import (
-	findprime "FindPrime"
 	"fmt"
 )
 
@@ -94,18 +93,11 @@ func main() {
 	fmt.Println("input the number you want to find its prime")
 	var X int
 	fmt.Scanln(&X)
-	_, Primecount := findprime.FindPrime(X)
-	fmt.Printf("the prime'number of %v is %v\n", X, Primecount)
 
 	// 查找X以内的素数 with Goto
 	fmt.Println("------PrimeWithGoto-----")
 	fmt.Println("input the number you want to find its prime")
 	var Y int
 	fmt.Scanln(&Y)
-
-	PrimeWithGotoList, PrimeWithGotoCount := findprime.FindPrimeWithGoto(Y)
-
-	fmt.Printf("the prime'number of %v is %v\n", Y, PrimeWithGotoList)
-	fmt.Printf("the %v has %v\n", Y, PrimeWithGotoCount)
 
 }

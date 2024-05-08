@@ -1,8 +1,8 @@
 package main
 
 import (
-	mode "StructMode"
 	"fmt"
+	"go-learn/StructMode"
 )
 
 type circul struct {

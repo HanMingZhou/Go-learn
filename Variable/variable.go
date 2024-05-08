@@ -1,8 +1,8 @@
 package main
 
 import (
-	variableouter "VariableOuter"
 	"fmt"
+	variableouter "go-learn/VariableOuter"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package module1
 
 import (
 	"fmt"
-	"module2"
+	"go-learn/module2"
 	"strings"
 	// 模块module1要使用本地模块module2里的Add函数
 	// 这里被import的本地模块的名称要和module2/go.mod里保持一致
